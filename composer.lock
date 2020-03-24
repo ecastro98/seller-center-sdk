@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f49092d87baf3ce8c89faa02bde0bdd9",
+    "content-hash": "c167b7e83102726911b9d37e5d287b43",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -195,24 +195,25 @@
         },
         {
             "name": "linio/util",
-            "version": "2.2.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LinioIT/util.git",
-                "reference": "e8f96af8305dcd6ed5534c8eea90899c2f43ec67"
+                "reference": "f7b31e3d165b87cb1f3ef55cbfda2e860edc4ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LinioIT/util/zipball/e8f96af8305dcd6ed5534c8eea90899c2f43ec67",
-                "reference": "e8f96af8305dcd6ed5534c8eea90899c2f43ec67",
+                "url": "https://api.github.com/repos/LinioIT/util/zipball/f7b31e3d165b87cb1f3ef55cbfda2e860edc4ec3",
+                "reference": "f7b31e3d165b87cb1f3ef55cbfda2e860edc4ec3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": "^7.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.4",
-                "phpunit/phpunit": "~5.0"
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "autoload": {
@@ -229,7 +230,7 @@
                 "linio",
                 "util"
             ],
-            "time": "2018-06-05T20:07:48+00:00"
+            "time": "2020-01-02T16:27:20+00:00"
         },
         {
             "name": "psr/http-message",
@@ -4346,7 +4347,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1",
+        "php": "^7.4",
         "ext-json": "*",
         "ext-simplexml": "*"
     },
